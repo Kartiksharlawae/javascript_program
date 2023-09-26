@@ -1,0 +1,7 @@
+// Readline Sync library for reading value from cmd
+var readlineSync = require('readline-sync');
+
+// Display Statement
+var input = readlineSync.questionInt("Enter name: ")
+
+console.log("replace name")
